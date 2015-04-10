@@ -1,5 +1,5 @@
 # SanIcon-Swift
-Selected Icon font with IonIcon, Font Awesome, Entypo. In Swift.
+Selected icon font from IonIcon, Font Awesome, Entypo, ... In Swift.
 
 ![](thumb.png)
 
