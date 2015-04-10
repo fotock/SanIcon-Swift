@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9D314A51AD7B01D004AFF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D314A41AD7B01D004AFF69 /* AppDelegate.swift */; };
+		D9D314A81AD7B01D004AFF69 /* SanIconSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9D314A61AD7B01D004AFF69 /* SanIconSwift.xcdatamodeld */; };
+		D9D314AA1AD7B01D004AFF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D314A91AD7B01D004AFF69 /* ViewController.swift */; };
+		D9D314AD1AD7B01D004AFF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D314AB1AD7B01D004AFF69 /* Main.storyboard */; };
+		D9D314AF1AD7B01D004AFF69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D314AE1AD7B01D004AFF69 /* Images.xcassets */; };
+		D9D314B21AD7B01D004AFF69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D314B01AD7B01D004AFF69 /* LaunchScreen.xib */; };
+		D9D314BE1AD7B01D004AFF69 /* SanIconSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D314BD1AD7B01D004AFF69 /* SanIconSwiftTests.swift */; };
+		D9D314CB1AD7B294004AFF69 /* SanIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D314CA1AD7B294004AFF69 /* SanIcon.swift */; };
+		D9D314CD1AD7B8AC004AFF69 /* SILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D314CC1AD7B8AC004AFF69 /* SILabel.swift */; };
+		D9D314CE1AD7F3F6004AFF69 /* sanicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9D314C81AD7B259004AFF69 /* sanicon.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9D314B81AD7B01D004AFF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D314971AD7B01D004AFF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D3149E1AD7B01D004AFF69;
+			remoteInfo = SanIconSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9D3149F1AD7B01D004AFF69 /* SanIconSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanIconSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D314A31AD7B01D004AFF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D314A41AD7B01D004AFF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9D314A71AD7B01D004AFF69 /* SanIconSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SanIconSwift.xcdatamodel; sourceTree = "<group>"; };
+		D9D314A91AD7B01D004AFF69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9D314AC1AD7B01D004AFF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9D314AE1AD7B01D004AFF69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9D314B11AD7B01D004AFF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9D314B71AD7B01D004AFF69 /* SanIconSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanIconSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D314BC1AD7B01D004AFF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D314BD1AD7B01D004AFF69 /* SanIconSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanIconSwiftTests.swift; sourceTree = "<group>"; };
+		D9D314C81AD7B259004AFF69 /* sanicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sanicon.ttf; sourceTree = "<group>"; };
+		D9D314CA1AD7B294004AFF69 /* SanIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SanIcon.swift; sourceTree = "<group>"; };
+		D9D314CC1AD7B8AC004AFF69 /* SILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SILabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D3149C1AD7B01D004AFF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D314B41AD7B01D004AFF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9D314961AD7B01D004AFF69 = {
+			isa = PBXGroup;
+			children = (
+				D9D314A11AD7B01D004AFF69 /* SanIconSwift */,
+				D9D314BA1AD7B01D004AFF69 /* SanIconSwiftTests */,
+				D9D314A01AD7B01D004AFF69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D314A01AD7B01D004AFF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D3149F1AD7B01D004AFF69 /* SanIconSwift.app */,
+				D9D314B71AD7B01D004AFF69 /* SanIconSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D314A11AD7B01D004AFF69 /* SanIconSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D9D314C71AD7B259004AFF69 /* SanIcon */,
+				D9D314A41AD7B01D004AFF69 /* AppDelegate.swift */,
+				D9D314A91AD7B01D004AFF69 /* ViewController.swift */,
+				D9D314AB1AD7B01D004AFF69 /* Main.storyboard */,
+				D9D314A21AD7B01D004AFF69 /* Supporting Files */,
+			);
+			path = SanIconSwift;
+			sourceTree = "<group>";
+		};
+		D9D314A21AD7B01D004AFF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D314AE1AD7B01D004AFF69 /* Images.xcassets */,
+				D9D314B01AD7B01D004AFF69 /* LaunchScreen.xib */,
+				D9D314A61AD7B01D004AFF69 /* SanIconSwift.xcdatamodeld */,
+				D9D314A31AD7B01D004AFF69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9D314BA1AD7B01D004AFF69 /* SanIconSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D314BD1AD7B01D004AFF69 /* SanIconSwiftTests.swift */,
+				D9D314BB1AD7B01D004AFF69 /* Supporting Files */,
+			);
+			path = SanIconSwiftTests;
+			sourceTree = "<group>";
+		};
+		D9D314BB1AD7B01D004AFF69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D314BC1AD7B01D004AFF69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9D314C71AD7B259004AFF69 /* SanIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D9D314C81AD7B259004AFF69 /* sanicon.ttf */,
+				D9D314CA1AD7B294004AFF69 /* SanIcon.swift */,
+				D9D314CC1AD7B8AC004AFF69 /* SILabel.swift */,
+			);
+			path = SanIcon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D3149E1AD7B01D004AFF69 /* SanIconSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D314C11AD7B01D004AFF69 /* Build configuration list for PBXNativeTarget "SanIconSwift" */;
+			buildPhases = (
+				D9D3149B1AD7B01D004AFF69 /* Sources */,
+				D9D3149C1AD7B01D004AFF69 /* Frameworks */,
+				D9D3149D1AD7B01D004AFF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanIconSwift;
+			productName = SanIconSwift;
+			productReference = D9D3149F1AD7B01D004AFF69 /* SanIconSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D314B61AD7B01D004AFF69 /* SanIconSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D314C41AD7B01D004AFF69 /* Build configuration list for PBXNativeTarget "SanIconSwiftTests" */;
+			buildPhases = (
+				D9D314B31AD7B01D004AFF69 /* Sources */,
+				D9D314B41AD7B01D004AFF69 /* Frameworks */,
+				D9D314B51AD7B01D004AFF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D314B91AD7B01D004AFF69 /* PBXTargetDependency */,
+			);
+			name = SanIconSwiftTests;
+			productName = SanIconSwiftTests;
+			productReference = D9D314B71AD7B01D004AFF69 /* SanIconSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D314971AD7B01D004AFF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sanfriend Co, Ltd.";
+				TargetAttributes = {
+					D9D3149E1AD7B01D004AFF69 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D9D314B61AD7B01D004AFF69 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D9D3149E1AD7B01D004AFF69;
+					};
+				};
+			};
+			buildConfigurationList = D9D3149A1AD7B01D004AFF69 /* Build configuration list for PBXProject "SanIconSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D314961AD7B01D004AFF69;
+			productRefGroup = D9D314A01AD7B01D004AFF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D3149E1AD7B01D004AFF69 /* SanIconSwift */,
+				D9D314B61AD7B01D004AFF69 /* SanIconSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D3149D1AD7B01D004AFF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D314CE1AD7F3F6004AFF69 /* sanicon.ttf in Resources */,
+				D9D314AD1AD7B01D004AFF69 /* Main.storyboard in Resources */,
+				D9D314B21AD7B01D004AFF69 /* LaunchScreen.xib in Resources */,
+				D9D314AF1AD7B01D004AFF69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D314B51AD7B01D004AFF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D3149B1AD7B01D004AFF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D314AA1AD7B01D004AFF69 /* ViewController.swift in Sources */,
+				D9D314A51AD7B01D004AFF69 /* AppDelegate.swift in Sources */,
+				D9D314CD1AD7B8AC004AFF69 /* SILabel.swift in Sources */,
+				D9D314A81AD7B01D004AFF69 /* SanIconSwift.xcdatamodeld in Sources */,
+				D9D314CB1AD7B294004AFF69 /* SanIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D314B31AD7B01D004AFF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D314BE1AD7B01D004AFF69 /* SanIconSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D314B91AD7B01D004AFF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D3149E1AD7B01D004AFF69 /* SanIconSwift */;
+			targetProxy = D9D314B81AD7B01D004AFF69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9D314AB1AD7B01D004AFF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D314AC1AD7B01D004AFF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D314B01AD7B01D004AFF69 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D314B11AD7B01D004AFF69 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9D314BF1AD7B01D004AFF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9D314C01AD7B01D004AFF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D314C21AD7B01D004AFF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SanIconSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9D314C31AD7B01D004AFF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SanIconSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9D314C51AD7B01D004AFF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SanIconSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanIconSwift.app/SanIconSwift";
+			};
+			name = Debug;
+		};
+		D9D314C61AD7B01D004AFF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SanIconSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanIconSwift.app/SanIconSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D3149A1AD7B01D004AFF69 /* Build configuration list for PBXProject "SanIconSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D314BF1AD7B01D004AFF69 /* Debug */,
+				D9D314C01AD7B01D004AFF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D314C11AD7B01D004AFF69 /* Build configuration list for PBXNativeTarget "SanIconSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D314C21AD7B01D004AFF69 /* Debug */,
+				D9D314C31AD7B01D004AFF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9D314C41AD7B01D004AFF69 /* Build configuration list for PBXNativeTarget "SanIconSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D314C51AD7B01D004AFF69 /* Debug */,
+				D9D314C61AD7B01D004AFF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9D314A61AD7B01D004AFF69 /* SanIconSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9D314A71AD7B01D004AFF69 /* SanIconSwift.xcdatamodel */,
+			);
+			currentVersion = D9D314A71AD7B01D004AFF69 /* SanIconSwift.xcdatamodel */;
+			path = SanIconSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9D314971AD7B01D004AFF69 /* Project object */;
+}
