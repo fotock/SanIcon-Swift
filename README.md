@@ -14,9 +14,9 @@ B. Info.plist Settings. Add "Fonts provided by application" item by clicking on 
 
 ```swift
 
-var label = UILabel();
-label.text = String.sanicon(.ArrowUp);
-label.font = UIFont.saniconFontOfSize(20);
+var label = UILabel()
+label.text = String.sanicon(.ArrowUp)
+label.font = UIFont.saniconFontOfSize(20)
 ```
 Also works with `UIButton`, ...
 
@@ -24,12 +24,12 @@ Also works with `UIButton`, ...
 
 ```swift
 
-var label = SILabel();
-label.text = "Albums";
-label.iconName = .Albums;
-//label.iconColor = 0xffaa99ff;
-//label.iconSize = 22;
-//label.iconPadding = 5;
+var label = SILabel()
+label.text = "Albums"
+label.iconName = .Albums
+//label.iconColor = 0xffaa99ff
+//label.iconSize = 22
+//label.iconPadding = 5
 ```
 
 ## Reference
