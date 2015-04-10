@@ -18,9 +18,9 @@ var label = UILabel();
 label.text = String.sanicon(.ArrowUp);
 label.font = UIFont.saniconFontOfSize(20);
 ```
-Also work with `UIButton`, ...
+Also works with `UIButton`, ...
 
-#### Use ionicons with `SILabel`
+#### Use ionicons with `SILabel`:
 
 ```swift
 
