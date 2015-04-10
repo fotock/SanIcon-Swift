@@ -10,7 +10,7 @@ B. Info.plist Settings. Add "Fonts provided by application" item by clicking on 
 
 ## Sample Code
 
-#### Use ionicons with `UILabel`:
+#### Use `SanIcon` with `UILabel`:
 
 ```swift
 
@@ -20,7 +20,7 @@ label.font = UIFont.saniconFontOfSize(20);
 ```
 Also works with `UIButton`, ...
 
-#### Use ionicons with `SILabel`:
+#### Use `SanIcon` with `SILabel`:
 
 ```swift
 
